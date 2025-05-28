@@ -1,13 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ultimate Frisbee App</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>UltiMate | HCI+D Project</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
+  <div data-include="header.html"></div>
 
-    <!-- Your website content will go here -->
+  <section class="hero" style="position: relative; overflow: hidden;">
+    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-image: url('public/bg.jpg'); background-size: cover; background-position: center; opacity: 0.3; z-index: 0;"></div>
+    <div style="position: relative; z-index: 1;">
+      <h1 style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);">Manage Your Ultimate Team Seamlessly</h1>
+      <p style="text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);">UltiMate is a design-driven HCI+D project aimed at simplifying communication and coordination in ultimate frisbee teams. Built with empathy, iteration, and testing at its core.</p>
+      <a href="development.html"><button class="cta-button" style="box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);">Explore the Process</button></a>
+    </div>
+    
+  </section>
 
+  <section class="section">
+    <h2>Dual Display Functionality</h2>
+    <p>UltiMate offers a unique dual display experience, tailored for both iPhones and iPads.</p>
+    <div class="dual-display">
+      <div class="device">
+        <img src="img/iphone-placeholder.jpg" alt="iPhone Player Evaluation">
+        <h3>iPhone: Player Evaluation</h3>
+        <p>Evaluate player performance on the go with your iPhone. Access player stats, provide feedback, and track progress in real-time.</p>
+      </div>
+      <div class="device">
+        <img src="img/ipad-placeholder.jpg" alt="iPad Game Management">
+        <h3>iPad: Team Management & Game Recording</h3>
+        <p>Set up your team, manage players, and record games live with your iPad. Enjoy a larger screen for strategic planning and detailed game analysis.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Key Features</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>📋 Team Management</h3>
+        <p>Easily manage your team roster, player profiles, and contact information. Keep everything organized in one place.</p>
+      </div>
+      <div class="card">
+        <h3>⏰ Real-Time Game Recording</h3>
+        <p>Record game events in real-time, track scores, and monitor player performance during the game.</p>
+      </div>
+      <div class="card">
+        <h3>📈 Performance Analytics</h3>
+        <p>Analyze team and player performance with detailed statistics and reports. Identify areas for improvement and track progress over time.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="hero">
+    <h2>Ready to Take Your Team to the Next Level?</h2>
+    <a href="demo.html"><button class="cta-button">Get Started</button></a>
+  </section>
+
+  <div data-include="footer.html"></div>
+  <script src="js/include.js"></script>
 </body>
 </html>
